@@ -1,148 +1,369 @@
 <!DOCTYPE html>
-<html lang = "en">
+<html lang="en">
 <head>
-	<meta charset = "UTF-8">
-	<title> Portfolio Website -Jinny </title>
-	<meta name = "viewport" content = "width=device-width, initial-scale = 1.0" >
-	<link rel = "stylesheet" href = "css/style.css">
+	<meta charset="UTF-8">
+	<title>JinnyPortfolio</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1.0" >
+	<link rel="stylesheet" href="css/style.css">
 	<link href="https://fonts.googleapis.com/css?family=Source+Sans+Pro|Roboto+Mono" rel="stylesheet">
 </head>
 <body>
-	<header id = "header">
-		<div class = "container">
+	<header id="header">
+		<div class="container">
 			<nav>
-				<div class = "nav-left">
-					<a href = "#home">Jinny Website</a>
+				<div class="nav-wrapper">
+					<div class="nav-left">
+						<a href="#home">Jinny Website</a>
+					</div>
+					<ul class="nav-right">
+						<li><a href="#portfolio">works</a></li>
+						<li><a href="#about">about</a></li>
+						<li><a href="#service">skills</a></li>
+						<li><a href="#contact">community</a></li>
+					</ul>
 				</div>
-				<ul class= "nav-right">
-					<li><a href = "#portfolio"> works </a></li>
-					<li><a href = "#about"> about </a></li>
-					<li><a href = "#service"> service </a></li>
-					<li><a href = "#contact"> contact </a></li>
-				</ul>
 			</nav>
 		</div>
 	</header>
-	<section class = "home-bg" id = "home">
-		<div class = "overlay"></div>
-		<div class = "home-container">
-			<div class = "home-flex-container">
-				<h2> Hi, I'm Jinny </h2>
-				<!-- <div class = "social-icons">
-					<a href = "https://www.linkedin.com/in/chinyun-c-a455a4109/" class = "linkedin-logo"> 
-						<img src="images/socialicons-03.png" alt="Linkedin">
-					</a>
-					<a href = "https://github.com/chinyun" class = "github-logo"> 
-						<img src="images/socialicons-02.png" alt="Github">
-					</a>
-					<a href = "https://medium.com/@chenclaire" class ="medium-logo"> 
-						<img src="images/socialicons-01.png" alt="Medium"> 
-					</a>
-				</div> -->
+	<section class="home-bg" id="home">
+		<div class="overlay"></div>
+		<div class="home-container">
+			<div class="home-flex-container">
+				<h2>Hi, I'm Jinny</h2>
 			</div>
 		</div>
 	</section>
 
-	<section id ="portfolio">
-		<div class ="container">
-			<h2> Latest  Works </h2>
-			<div class ="works-display">
-				<div class="works-wrapper">
-					<div class ="works-keyvisual">
-						<div class="works-column">
-							<!-- <img src="images/" alt="work-col-2">
-							<img src="images/" alt="work-col-1"> -->
-						</div>
-					</div>
-					<div class ="works-text">
-						<h3> An Ux Case Study </h3>
-						<div class="works-description">
-							<p> There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which don't look even slightly believable. </p>
-						</div>
-						<div class="works-keywords-group">
-							<div class="works-keywords"><p>Prototyping</p></div>
-							<div class="works-keywords"><p>Wireframing</p></div>
-							<div class="works-keywords"><p>UX Research</p></div>
-						</div>
-						<button class = "btn"> <span>Go </span> </button>
-					</div>
-				</div>
-				<div class="works-wrapper">
-					<div class ="works-keyvisual">
-						<div class="works-column">
-							<!-- <img src="images/" alt="work-col-2">
-							<img src="images/" alt="work-col-1"> -->
-						</div>
-					</div>
-					<div class ="works-text">
-						<h3> Interactive Infographic website </h3>
-						<div class="works-description">
-							<p> There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which don't look even slightly believable. </p>
-						</div>
-						<div class="works-keywords-group">
-							<div class="works-keywords"><p>D3.js</p></div>
-							<div class="works-keywords"><p>React.js</p></div>
-							<div class="works-keywords"><p>Ui Design</p></div>
-						</div>
-						<button class = "btn"> <span>Go </span> </button>
-					</div>
-				</div>
-				<div class="works-wrapper">
-					<div class ="works-keyvisual">
-						<div class="works-column">
-							<!-- <img src="images/" alt="work-col-2">
-							<img src="images/" alt="work-col-1"> -->
-						</div>
-					</div>
-					<div class ="works-text">
-						<h3> Web Game Built by JS </h3>
-						<div class="works-description">
-							<p> There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which don't look even slightly believable. </p>
-						</div>
-						<div class="works-keywords-group">
-							<div class="works-keywords"> <p>Javascript</p> </div>
-							<div class="works-keywords"> <p>Html5</p> </div>
-							<div class="works-keywords"> <p>CSS3</p> </div>
-						</div>
-						<button class = "btn"> <span>Go </span> </button>
-					</div>
-				</div>
-			</div>
-		</div>
-	</section>
-	<section class="works-gallery">
+	<section id="portfolio">
 		<div class="container">
-			<div class="gallery-photo-group">
-				<div class="gallery-photo">
-					<a href=""><!-- <img src="images/work-square-1.png" alt="work-square-1"> --></a>
-				</div>
-
-				<div class="gallery-photo">
-					<a href=""><!-- <img src="images/work-square-2.png" alt="work-square-2"> --></a>
-				</div>
-
-				<div class="gallery-photo">
-					<a href=""><!-- <img src="images/work-square-3.png" alt="work-square-3"> --></a>
-				</div>
-
-				<div class="gallery-photo">
-					<a href=""><!-- <img src="images/work-square-4.png" alt="work-square-4"> --></a>
-				</div>
-
-				<div class="gallery-photo">
-					<a href=""><!-- <img src="images/work-square-5.png" alt="work-square-5"> --></a>
+			<h2 class="category">web development</h2>
+			<div class="works-display">
+				<div class="works-wrapper">
+					<div class ="works-text">
+						<h3 class="works-name">Tripper, a web application that help balance trip budget!</h3>
+						<div class="works-keywords-group">
+							<div class="works-keywords"><span>UI/UX</span></div>
+							<div class="works-keywords"><span>D3.js</span></div>
+							<div class="works-keywords"><span>React</span></div>
+							<div class="works-keywords"><span>Node.js</span></div>
+							<div class="works-keywords"><span>Redux</span></div>
+							<div class="works-keywords"><span>Postgresql</span></div>
+						</div>
+						<div class="works-description">
+							<p class="works-description-eng">
+								This is a web application that starts from scratch.
+								It is designed to help users manage their travel budget before and during the trip.
+								On Dahboard, users can set up multiple travel itineraries and manage them separately.
+								<br>Detailed functions include supplementary travel days and new expenses,
+								 view the expenditure / budget ratio, total and detailed budget setting,
+								  and expenditure content modification, etc.
+							</p>
+							<p class="works-description-cn">
+								這是一個從零開始發想的網頁應用，目的為幫助使用者在行程前及旅遊期間管理旅遊預算，在 Dahboard 使用者可以建立多個旅遊行程並個別管理，詳細功能包括新增旅遊天數、新增支出、查看支出/預算比例、總預算設定、細項預算設定、修改支出內容等。
+							</p>
+						</div>
+					</div>
+					
+					<div class="works-information">
+						<div class="works-feature-wrapper">
+							<div class="works-feature">
+								<div class="works-feature-pic"></div>
+								<div class="works-feature-words">
+									<p class="works-feature-description-title">Design for User</p>
+									<div class="works-feature-description">
+										<p class="works-feature-description-eng">Wireframe, Site map, Personas.</p>
+									</div>
+								</div>
+							</div>
+							<div class="works-feature">
+								<div class="works-feature-pic"></div>
+								<div class="works-feature-words">
+									<p class="works-feature-description-title">Data Visualized</p>
+									<div class="works-feature-description">
+										<p class="works-feature-description-cn">互動性圖表即時反應數據變化</p>
+									</div>
+								</div>
+							</div>
+							<div class="works-feature">
+								<div class="works-feature-pic"></div>
+								<div class="works-feature-words">
+									<p class="works-feature-description-title">Micro-interaction</p>
+									<div class="works-feature-description">
+										<p class="works-feature-description-cn">透過 CSS animation 提供反饋</p>
+									</div>
+								</div>
+							</div>
+						</div>
+						<div class="works-demo-wrapper">
+							<div class="works-demo">
+								<iframe width="720" height="405" src="https://www.youtube.com/embed/prtj2lKrhC4?&rel=0&autoplay=1" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+							</div>
+						</div>
+					</div>
+					<div class="works-links-wrapper">
+						<p class="works-links-title">GitHub links</p>
+						<div class="works-links">
+							<p>Front-end</p>
+							<a href="https://github.com/chinyun/Tripper-app-redux" class="links" target="_blank">
+								Tripper-app-redux
+							</a>
+						</div>
+						<div class="works-links">
+							<p>Back-end</p>
+							<a href="https://github.com/chinyun/Tripper-app-api" class="links" target="_blank">
+								Tripper-app-api
+							</a>
+						</div>
+					</div>
 				</div>
 				
-				<div class="gallery-photo">
-					<a href=""><!-- <img src="images/work-square-6.png" alt="work-square-6"> --></a>
-				</div>	
+				<div class="works-keyvisual">
+					<div class="works-photo">
+						<img src="images/Tripper-demo-group.png" alt="app-photo">
+					</div>
+				</div>
+				<div class="works-cta">
+					<p class="works-cta-words">Visit website</p>
+					<button class="works-go-btn">
+						<a href="https://tripper-web.herokuapp.com/" target="_blank">
+							<span>Go</span>
+						</a>
+					</button>
+				</div>
+				<div class="works-links-wrapper">	
+					<div class="works-links">
+						<p> For more develop details </p>
+						<a href="https://github.com/chinyun/Tripper-app-redux" class="links" target="_blank">
+							Ux case study | Tripper
+						</a>
+					</div>
+				</div>
+					
+			</div>			
+			<!-- <h2 class="category">data visualization</h2>
+			<div class="works-display">
+				<div class="works-wrapper">
+					<div class ="works-text">
+						<h3 class="works-name">Dynamic chart, visualize the data of two topics.</h3>
+						<div class="works-keywords-group">
+							<div class="works-keywords"><span>D3.js</span></div>
+							<div class="works-keywords"><span>Html5</span></div>
+							<div class="works-keywords"><span>CSS3</span></div>
+							<div class="works-keywords"><span>JavaScript</span></div>
+						</div>
+					</div>
+					<div class="works-gallery">
+						<div class="works-gallery-description">
+							<p class="works-gallery-description-title">Gapminder</p>
+							<p class="works-gallery-description-eng">
+								Shows the changing of Life Expectancy and GDP Per Capita (Income Per Person, $/year).
+							</p>
+							<div class="works-gallery-demo"></div>
+							<div class="works-links-wrapper">
+								<div class="works-links">
+									<p>GitHub</p>
+									<a href="https://github.com/chinyun/data-visualization-d3/tree/master/Gapminder" class="links" target="_blank">
+										Gapminder
+									</a>
+								</div>
+								<div class="works-links">
+									<p>Heroku</p>
+									<a href="" class="links">Demo</a>
+								</div>
+							</div>
+						</div>
+						<div class="works-gallery-description">
+							<p class="works-gallery-description-title">StarBreakCoffee</p>
+							<p class="works-gallery-description-eng">Hightlights the change of monthly revenue and profit of a coffee shop.</p>
+							<div class="works-gallery-demo"></div>
+							<div class="works-links-wrapper">
+								<div class="works-links">
+									<p>GitHub</p>
+									<a href="https://github.com/chinyun/data-visualization-d3/tree/master/Star%20Break%20Coffee" class="links" target="_blank">
+									Star Break Coffee</a>
+								</div>
+								<div class="works-links">
+									<p>Heroku</p>
+									<a href="" class="links">Demo</a>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div> -->
+			<h2 class="category">other works</h2>
+			<div class="other-works-wrapper">
+				<div class="other-works-cover">
+					<img src="images/facerecognize-cover.jpg" alt="facerecognize-cover">
+					<div class="works-cover-overlay">
+						<a href="https://chinyun.github.io/Background-Generator/" target="_blank">See Demo</a>
+					</div>
+				</div>
+				<div class="other-works-text">
+					<h3 class="other-works-name">Face Recognize</h3>
+					<div class="works-keywords-group">
+						<div class="works-keywords"><span>React</span></div>
+						<div class="works-keywords"><span>Api</span></div>
+						<div class="works-keywords"><span>Node.js</span></div>
+						<div class="works-keywords"><span>Postgresql</span></div>
+					</div>
+					<div class="other-works-description">
+						<p class="works-description-eng">
+							Sign up an account to submit an Image Url.
+							Use tachyons, Clarifai Api, and react-particles-js.
+						</p>
+						<p class="works-description-cn">註冊登入後，輸入圖片網址以識別人臉。用 tachyons 建構網頁介面、 react-particles-js 產生背景、 Clarifai Api 處理辨識功能。</p>
+					</div>
+					<div class="works-links-wrapper">
+						<div class="works-links">
+							<p>Front-end</p>
+							<a href="https://github.com/chinyun/Face-Recognize" class="links" target="_blank">Face-Recognize</a>
+						</div>
+						<div class="works-links">
+							<p>Back-end</p>
+							<a href="https://github.com/chinyun/Face-Recognize-api" class="links" target="_blank">Face-Recognize-api</a>
+						</div>
+						<div class="works-links">
+							<p>Heroku</p>
+							<a href="https://face-recognize-app.herokuapp.com" class="links" target="_blank">Demo</a>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="other-works-wrapper">
+				<div class="other-works-cover">
+					<img src="images/robotfriends-cover.jpg" alt="robotfriends-cover">
+					<div class="works-cover-overlay">
+						<a href="https://chinyun.github.io/Background-Generator/" target="_blank">See Demo</a>
+					</div>
+				</div>
+				<div class="other-works-text">
+					<h3 class="other-works-name">Robot Friends</h3>
+					<div class="works-keywords-group">
+						<div class="works-keywords"><span>React</span></div>
+						<div class="works-keywords"><span>Redux</span></div>
+						<div class="works-keywords"><span>API</span></div>	
+					</div>
+					<div class="other-works-description">
+						<p class="works-description-eng">
+							While typing in the search field, the Robots change instantly.
+						</p>
+						<p class="works-description-cn">在搜尋欄位輸入任意字母，找到的 Robots 會即時顯示在下方。</p>
+					</div>
+					<div class="works-links-wrapper">
+						<div class="works-links">
+							<p>GitHub</p>
+							<a href="https://github.com/chinyun/React-RoboFriends" class="links" target="_blank">
+								React-RoboFriends
+							</a>
+						</div>
+						<div class="works-links">
+							<p>GitHub Page</p>
+							<a href="" class="links" target="_blank">
+							Demo</a>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="other-works-wrapper">
+				<div class="other-works-cover">
+					<img src="images/backgroundgenerator-cover.jpg" alt="backgroundgenerator-cover">
+					<div class="works-cover-overlay">
+						<a href="https://chinyun.github.io/Background-Generator/" target="_blank">See Demo</a>
+					</div>
+				</div>
+				<div class="other-works-text">
+					<h3 class="other-works-name"> Background Generator </h3>
+					<div class="works-keywords-group">
+						<div class="works-keywords"><span>Html5</span></div>
+						<div class="works-keywords"><span>CSS3</span></div>
+						<div class="works-keywords"><span>Javascript</span></div>
+					</div>
+					<div class="other-works-description">
+						<p class="works-feature-description-eng">
+							Click on the left and right color blocks to create a gradient background in the background.
+						</p>
+						<p class="works-feature-description-cn">點擊左右兩個顏色區塊，在背景產生漸層背景。</p>
+					</div>
+					<div class="works-links-wrapper">
+						<div class="works-links">
+							<p>GitHub</p>
+							<a href="https://github.com/chinyun/Background-Generator" class="links" target="_blank">
+							Background-Generator</a>
+						</div>
+						<div class="works-links">
+							<p>GitHub Page</p>
+							<a href="https://chinyun.github.io/Background-Generator/" class="links" target="_blank">
+							Demo</a>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="other-works-wrapper">
+				<div class="other-works-cover">
+					<img src="images/gapminder-gif.gif" alt="gapminder-gif">
+					<div class="works-cover-overlay">
+						<a href="https://github.com/chinyun/data-visualization-d3/tree/master/Gapminder" target="_blank">Watch Code</a>
+					</div>
+				</div>
+				<div class="other-works-text">
+					<h3 class="other-works-name">Gapminder - Data Visualize</h3>
+					<div class="works-keywords-group">
+						<div class="works-keywords"><span>D3.js</span></div>
+						<div class="works-keywords"><span>Html5</span></div>
+						<div class="works-keywords"><span>CSS3</span></div>
+						<div class="works-keywords"><span>JavaScript</span></div>
+					</div>
+					<div class="other-works-description">
+						<p class="works-description-eng">
+							The dynamic chart shows the changing of Life Expectancy and GDP Per Capita (Income Per Person, $/year).
+						</p>
+						<p class="works-description-cn">動態圖顯示了預期壽命和人均GDP的變化（人均收入，美元/年）</p>
+					</div>
+					<div class="works-links-wrapper">
+						<div class="works-links">
+							<p>GitHub</p>
+							<a href="https://github.com/chinyun/data-visualization-d3/tree/master/Gapminder" class="links" target="_blank">Gapminder</a>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="other-works-wrapper">
+				<div class="other-works-cover">
+					<img src="images/flush-cover.jpg" alt="flush-cover">
+					<div class="works-cover-overlay">
+						<a href="https://scratch.mit.edu/projects/300602794/" target="_blank">See Demo</a>
+					</div>
+				</div>
+				<div class="other-works-text">
+					<h3 class="other-works-name"> Game on Scratch - Flush </h3>
+					<div class="works-keywords-group">
+						<div class="works-keywords"><span>Html5</span></div>
+						<div class="works-keywords"><span>CSS3</span></div>
+						<div class="works-keywords"><span>Javascript</span></div>
+					</div>
+					<div class="other-works-description">
+						<p class="works-feature-description-eng">
+							A simple game built with Scratch, look to bring more laugh to the world.
+							HOW TO PLAY? Just click. Hint: It is recommended to turn on the sound and browse using a laptop or desktop.
+						</p>
+						<p class="works-feature-description-cn">用 Scratch 製作的簡易遊戲，期待帶給世界更多笑聲，只要一直點擊就可以玩。提示：建議開啟聲音並用筆電或桌機瀏覽。</p>
+					</div>
+					<div class="works-links-wrapper">
+						<div class="works-links">
+							<p>Scratch</p>
+							<a href="https://scratch.mit.edu/projects/300602794/" class="links" target="_blank">
+							Demo</a>
+						</div>
+					</div>
+				</div>
 			</div>
 		</div>
 	</section>
 	
-	<section class ="about-me" id = "about"> 
-		<div class ="container">
-			<h2>about ME</h2>
+	<section class="about-me" id="about"> 
+		<div class="container">
+			<h2 class="category">about ME</h2>
 			<div class="summary">
 				<div class="col-left">
 					<div class="avatar"><img src="images/aboutme.png" alt="avatar"></div>
@@ -150,59 +371,128 @@
 				<div class="col-right">
 					<div class="personal-info">
 						<h3>Hi, I am Jinny!</h3>
-						<p> I have a strong curiousity about learning and how-to create new things. Pushing myself in a different stack could be comfortable as soon as possible. I like to climb the mountain ,play chess and watch movies and dramas in leisure time.  </p>
+						<div class="personal-info-text">
+							<div class="personal-info-text-eng">
+								<p> I have a strong curiousity about learning and how-to create new things.</p> 
+								<p>With deep passion for communication technology and data visualization, I self-learned programing and build a web app <a href="#portfolio" class="highlight">Tripper</a> that help balance trip budgets.</p>
+								<p>Like to walk in the light of creative altruism, so I write blogs to share thoughts with others.<br> In leisure time, I like to get close to the nature, read books and watch movies or Korean dramas.</p>
+							</div>
+							<div class="personal-info-text-cn">我對學習和創造事物有著強烈的好奇心，因為對科技傳播和資料視覺化有濃厚興趣，自學程式設計後打造 <a href="#portfolio" class="highlight">Tripper</a>  幫助進行旅遊預算規劃的網頁應用。<br>喜歡進行利他的創作，所以我寫部落格與他人交流想法。在閒暇時間我喜歡接近自然、看書或看電影及韓國戲劇。</div>
+						</div>
 					</div>
-					<!-- <div class="skill">
-						<ul>
-							<li>HTML 5 and CSS 3</li>
-							<li>Responsive Web Design</li>
-							<li>Javascript and React.js</li>
-						</ul>
+				</div>
+			</div>
+
+			<div class="self-learn">
+				<h3>How did I self-learn?</h3>
+				<div class="self-learn-row">
+					<div class="self-learn-column">
+						<div class="self-learn-icon"></div>
+						<div class="self-learn-text">
+							<p class="self-learn-title">12 months & 7hrs/day</p>
+							<p class="self-learn-description">2018.09 - 2019.08</p>
+						</div>
 					</div>
-					<div class="button-group">
-						<div class="download-cv"><a href="">download cv</a></div>
-					</div> -->
+					<div class="self-learn-column">
+						<div class="self-learn-icon"></div>
+						<div class="self-learn-text">
+							<p class="self-learn-title">Online-leanring</p>
+							<p class="self-learn-description">Take courses on Udemy.<br> Make good use of Medium, Youtube, FreeCodeCamp, Javascript.info, W3CSchool and offical dcumentations.</p>
+						</div>
+					</div>
+					<div class="self-learn-column">
+						<div class="self-learn-icon"></div>
+						<div class="self-learn-text">
+							<p class="self-learn-title">Co-learning with Community</p>
+							<p class="self-learn-description">StackOverFLow <br>Zero-To-Mastery community
+								<br>APHACamp FB club</p>
+						</div>
+					</div>
+				</div>
+				<div class="self-learn-row">
+					<div class="self-learn-column">
+						<div class="self-learn-icon"></div>
+						<div class="self-learn-text">
+							<p class="self-learn-title">Learning by Doing</p>
+							<p class="self-learn-description">Build side projects.
+								<br>12 repositories on GitHub,<br> includes 2 fullstack project.
+								<br>2019.04 - 2019.08</p>
+						</div>
+					</div>
+					<div class="self-learn-column">
+						<div class="self-learn-icon"></div>
+						<div class="self-learn-text">
+							<p class="self-learn-title">Record & Reflect</p>
+							<p class="self-learn-description">Write blog, technology notes, daily report, weekly reflect, monthly plan.</p>
+						</div>
+					</div>
+					<div class="self-learn-column">
+						<div class="self-learn-icon"></div>
+						<div class="self-learn-text">
+							<p class="self-learn-title">Google</p>
+							<p class="self-learn-description">Googling while encounter questions.</p>
+						</div>
+					</div>
 				</div>
 			</div>
 		</div>
 	</section>
 
-	<section class="my-service" id = "service">
+	<section class="my-service" id="service">
 		<div class="container">
-			<h2> what i offer </h2>
+			<h2 class="category"> skills </h2>
 			<div class="service-items">
 				<div class="service-content">
-					<h3> web design and development </h3>
-					<p> Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aliquam, facere. </p>
-				</div>
-
-				<div class="service-content">
-					<h3> ux research </h3>
-					<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aliquam, facere.</p>
+					<h3>web development</h3>
+					<p>JavaScript(ES6), React, Redux, AJAX, Node.js, Express.js, Knex.js, Postgresql, Git, HTML5, CSS3</p>
 				</div>
 				<div class="service-content">
-					<h3> data visualization </h3>
-					<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aliquam, facere.</p>
+					<h3>data visualization</h3>
+					<p>D3.js, Infographic Design, <br>User Research</p>
+				</div>
+				<div class="service-content">
+					<h3>Design</h3>
+					<p>UI/UX, Graphic, Motion, 3D</p>
 				</div>
 			</div>
 		</div>
 	</section>
-	<section class="my-contact" id = "contact">
+	<section class="my-contact" id="contact">
 		<div class="container">
-			<h2> Contact </h2>
+			<h2 class="category"> Community </h2>
 			<div class="contact-items">
 				<div class="contact-content">
-					<h3> Medium </h3>
-					<p> I wrote some articles about learning and practicing coding and web development. Could take look Here. </p>
+					<div class="social-icons">
+						<a href="https://medium.com/@chenclaire" target="_blank" class ="medium-logo"> 
+							<img src="images/socialicons-01.png" alt="Medium"> 
+						</a>
+					</div>
+					<p>11 published articles currently.<br>Get 1336 views, 654 reads, 8 fans in August.<br>Could take look 
+						<span class="contact-link"><a href="https://medium.com/@chenclaire" target="_blank">Here</a></span>
+					</p>
 				</div>
 
 				<div class="contact-content">
-					<h3> Github  </h3>
-					<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aliquam, facere.</p>
+					<div class="social-icons">
+						<a href="https://github.com/chinyun" target="_blank" class="github-logo"> 
+							<img src="images/socialicons-02.png" alt="Github">
+						</a>
+					</div>
+					<p>12 repositories on gitHub.<br>Could take look 
+						<span class="contact-link"><a href="https://github.com/chinyun" target="_blank">Here</a></span>
+					</p>
 				</div>
 				<div class="contact-content">
-					<h3> Linkedin</h3>
-					<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aliquam, facere.</p>
+					<div class="social-icons">
+						<a href="https://www.linkedin.com/in/chinyun-c-a455a4109/" target="_blank"class="linkedin-logo"> 
+							<img src="images/socialicons-03.png" alt="Linkedin">
+						</a>
+					</div>
+					<p>Personal career information.<br>Could take look 
+						<span class="contact-link">
+							<a href="https://www.linkedin.com/in/chinyun-c-a455a4109/" target="_blank">Here</a>
+						</span>
+					</p>
 				</div>
 			</div>
 		</div>
@@ -214,6 +504,5 @@
 			</div>
 		</div>
 	</footer>
-	
 </body>
 </html>
