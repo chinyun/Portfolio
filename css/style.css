@@ -26,7 +26,7 @@ body {
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   line-height: 1;
-  color: #333;
+  color: #010120;
 	background-color: #fff;
 }
 
@@ -55,7 +55,7 @@ h1, h2, h3, h4, h5, h6, p {
 }
 
 button {
-	font-size: 15px;
+	font-size: 16px;
   font-weight: 500;
 	text-align: center;
 	text-decoration: none;
@@ -74,6 +74,7 @@ a, a:hover, a:focus {
 	margin: 0;
 	padding: 0;
 	text-decoration: none;
+  cursor: pointer;
 }
 
 img {
@@ -118,7 +119,7 @@ input {
 	position: relative;
 }
 
-.nav-left a ,nav li {
+.nav-left a, nav li {
 	padding: 15px;
 }
 
@@ -135,20 +136,11 @@ input {
 }
 
 .home-bg {
-	background-image: url(../images/keyvisual-01.jpg);
+	background-image: url(../images/web-cover.jpg);
 	background-size: cover;
 	background-position: center;
 	background-repeat: no-repeat;
 	background-attachment: fixed;
-	width: 100%;
-	height: 100%;
-}
-
-.overlay {
-	background: rgba(0, 0, 0, 0.5);
-	position: absolute;
-	left: 0;
-	top: 0;
 	width: 100%;
 	height: 100%;
 }
@@ -200,9 +192,7 @@ input {
 }
 
 .works-text {
-	color: #4a4a4a;
 	width: 100%;
-	margin: 0 25px;
 	display: flex;
 	flex-direction: column;
   align-items: left;
@@ -212,7 +202,7 @@ input {
   max-width: 500px;
 	font-family: 'Source Sans Pro';
 	font-size: 35px;
-	color: #4a4a4a;
+	color: #010120;
 	line-height: 42px;
 	letter-spacing: 0.6px;
   margin: 5px 0;
@@ -240,7 +230,7 @@ input {
 
 .works-description {
 	margin: 5px 0;
-	color: #4a4a4a;
+	color: #010120;
   display: flex;
 }
 
@@ -255,7 +245,6 @@ input {
 }
 
 .works-description-cn {
-  color: #4a4a4a;
   width: 490px;
 	font-size: 17px;
 	font-family: 'Source Sans Pro';
@@ -274,7 +263,7 @@ input {
 }
 
 .works-feature-wrapper {
-  width: 350px;
+  width: 380px;
   display: flex;
   flex-direction: column;
   align-items: left;
@@ -283,12 +272,12 @@ input {
 
 .works-feature {
   display: flex;
-  margin: 20px 0;
+  margin: 25px 0;
 }
 
 .works-feature-pic {
-  width: 88px;
-  height: 88px;
+  width: 86px;
+  height: 86px;
   border-radius: 44px;
   border: 0px solid;
   background-color: #f8f8f8;
@@ -302,7 +291,7 @@ input {
 }
 
 .works-feature-words {
-  width: 230px;
+  width: 250px;
   margin-top: 10px;
   display: flex;
   flex-direction: column;
@@ -311,21 +300,21 @@ input {
 }
 
 .works-feature-description-title {
-  font-size: 22px;
+  font-size: 24px;
   font-weight: 400;
 }
 
 .works-feature-description {
-  margin: 6px 0;
+  margin: 10px 0;
 }
 
 .works-feature-description-eng {
-  font-size: 16px;
+  font-size: 17px;
   font-weight: 400;
   line-height: 1.5em;
   text-align: justify;
   margin-bottom: 5px;
-  color: #656565;
+  color: #4a4a4a;
 }
 
 .works-feature-description-cn {
@@ -335,7 +324,25 @@ input {
   line-height: 1.5em;
   text-align: justify;
   letter-spacing: 0.4px;
-  color: #656565;
+  color: #4a4a4a;
+}
+
+.works-demo-wrapper {
+  margin: 20px 0;
+}
+
+.works-demo {
+  width: 770px;
+  height: 455px;
+  padding: 25px 25px;
+  border-radius: 8px;
+  background: #010120;
+  box-shadow: 0px 4px 10px 0 rgba(0,0,0, 0.2);
+}
+
+.works-demo iframe {
+   width: 720px;
+   height: 405px;
 }
 
 .works-feature-more {
@@ -357,8 +364,7 @@ input {
 }
 
 .works-links-title {
-	color: #4a4a4a;
-	/*font-family: 'Roboto Mono';*/
+	color: #010120;
 	font-size: 16px;
 	letter-spacing: 0.2px;
 	font-weight: 500;
@@ -396,19 +402,6 @@ input {
 	font-size: 16px;
 }
 
-.works-demo-wrapper {
-	margin: 20px 0;
-}
-
-.works-demo {
-	width: 770px;
-	height: 455px;
-  padding: 25px 25px;
-  border-radius: 8px;
-	background: #000;
-  box-shadow: 0px 4px 10px 0 rgba(0,0,0, 0.2);
-}
-
 .works-cta {
 	margin: 20px 0 80px 0;
 	display: flex;
@@ -419,7 +412,7 @@ input {
 .works-cta-words {
 	font-size: 20px;
 	font-family: 'Roboto Mono';
-	color: #4a4a4a;
+	color: #010120;
 	letter-spacing: 0.2px;
 	font-weight: 300;
 	margin: 15px 0;
@@ -473,7 +466,7 @@ input {
 .other-works-name {
   font-size: 28px;
   font-family: 'Source Sans Pro';
-  color: #4a4a4a;
+  color: #010120;
   line-height: 35px;
   letter-spacing: 0.2px;
 }
@@ -487,12 +480,16 @@ input {
 }
 
 .other-works-cover img {
-  width: 100%;
-  height: auto;
+  width: 438px;
+  height: 292px;
   border-radius: 12px;
 }
 
 .other-works-cover:hover .works-cover-overlay {
+  opacity: 1;
+}
+
+.other-works-cover:click .works-cover-overlay {
   opacity: 1;
 }
 
@@ -501,7 +498,7 @@ input {
   bottom: 0;
   width: 100%;
   height: 100%;
-  padding: 128px;
+  padding: 30%;
   text-align: center;
   border-radius: 12px;
   background-color: rgba(35, 90, 222, .8);
@@ -525,21 +522,43 @@ input {
 }
 
 .other-works-description {
-  width: 490px;
+  width: 470px;
   margin-bottom: 12px;
+  color: #4a4a4a;
+}
+
+.other-works-description-eng {
+  font-size: 17px;
+  font-weight: 400;
+  line-height: 1.5em;
+  text-align: justify;
+  margin-bottom: 5px;
+}
+
+.other-works-description-cn {
+  font-size: 16px;
+  font-family: 'Source Sans Pro';
+  font-weight: 400;
+  line-height: 1.5em;
+  text-align: justify;
+  letter-spacing: 0.4px;
 }
 
 .summary {
 	display: flex;
 	justify-content: center;
+  border-radius: 12px;
+  box-shadow: 2px 4px 10px 0 rgba(0,0,0, 0.1);
+  padding: 20px;
 }
 
 .avatar {
-	width: 269px;
+	width: 260px;
+  margin: 25px 20px;
 }
 
 .personal-info {
-	margin-left: 52px;
+	margin: 30px;
 }
 
 .personal-info h3 {
@@ -552,14 +571,15 @@ input {
 
 .personal-info-text {
   display: flex;
+  font-size: 1.1em;
   font-family: 'Source Sans Pro';
   text-align: justify;
-  text-justify: distribute;
+  color: #4a4a4a;
 }
 
 .highlight {
   font-weight: 600;
-  color: #333;
+  color: #4a4a4a;
 }
 
 .highlight:hover {
@@ -567,25 +587,17 @@ input {
 }
 
 .personal-info-text-eng {
-  width: 416px;
-	font-size: 18px;
-  letter-spacing: 0.6px;
+  width: 45%;
 	line-height: 26px;
   margin: 15px 50px 15px 0;
 }
 
-.personal-info-text-eng p {
-  margin-bottom: 10px;
-}
-
 .personal-info-text-cn {
   width: 45%;
-  color: #4a4a4a;
   font-weight: 400;
   letter-spacing: 0.8px;
-  font-size: 1.1em;
   line-height: 1.6em;
-  margin: 15px 30px 15px 0;
+  margin: 15px 0px 15px 0;
 }
 
 .self-learn {
@@ -701,15 +713,15 @@ input {
 }
 
 footer {
-	padding: 25px 0;
-	background-color: #222;
+	padding: 30px 0;
+	background-color: #010120;
 	color: #fff;
 	text-align: center;
 }
 
 .footer-content p {
-	font-family: 'Source Sans Pro';
+  font-size: 13px;
 	line-height: 22px;
-	font-weight: 200;
+	font-weight: 300;
 	letter-spacing: 0.2em;
 }
