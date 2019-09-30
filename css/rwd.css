@@ -159,6 +159,10 @@
     flex-direction: column;
   }
 
+  .works-description p {
+    margin: 0 0 18px 0;
+  }
+
   .works-feature-description-eng,
   .works-feature-description-cn {
     text-align: left;
@@ -211,11 +215,16 @@
 
 @media screen and (max-width: 599px) {
   section {
-    padding-bottom: 10px;
+    padding-bottom: 30px;
   }
 
   .home-flex-container h2 {
     font-size: 16px;
+  }
+
+  .works-name {
+    font-size: 26px;
+    letter-spacing: 0px;
   }
 
   .works-keywords-group {
@@ -224,7 +233,6 @@
 
   .works-description p {
     width: 100%;
-    margin: 0;
   }
 
   .works-demo {
@@ -251,9 +259,13 @@
     margin: 5%;
   }
 
-  .personal-info-text p {
-    font-size: 15px;
-    line-height: 20px;
+  .personal-info-text-eng {
+    font-size: 16px;
+  }
+
+  .personal-info-text-cn {
+    font-size: 15.5px;
+    line-height: 28px;
   }
 
   .self-learn-column {
@@ -299,12 +311,16 @@
     margin-bottom: 20px;
   }
 
-  #service, #contact {
+  #service, #contact, #other-works {
     padding-top: 40px;
   }
 
   .nav-wrapper a {
-    font-size: 13px;
+    font-size: 13.8px;
+  }
+
+  nav li {
+    padding: 15px 12px;
   }
 
   .works-keywords span {
@@ -378,6 +394,26 @@
   .other-works-description-cn {
     font-size: 14px;
   }
+
+  .self-learn-title {
+    font-size: 20px;
+  }
+
+  .self-learn-description {
+    font-size: 16px;
+  }
+
+  .service-content h3 {
+    font-size: 20px;
+  }
+
+  .service-content p,.contact-content p {
+    font-size: 16px;
+  }
+
+  .footer-content p {
+    font-size: 10px;
+  }
 }
 
 @media screen and (max-width: 360px) {
@@ -398,13 +434,25 @@
 
 /*home-bg*/
 
+@media screen and (max-width: 1023px) {
+  .home-bg {
+    background-attachment: scroll;
+    background-size: 100% auto;
+  }
+
+  .home-flex-container {
+    padding-bottom: 22%;
+  }
+}
+
 @media screen and (max-width: 1023px) and (min-height: 757px) {
   .home-bg {
     background-image: url(../images/web-cover-rwdL.jpg);
   }
 }
 
-@media screen and (max-width: 630px) {
+@media screen and (max-width: 756px) and (min-height: 417px) {
+  
   .home-bg {
     background-image: url(../images/web-cover-rwdM.jpg);
   }

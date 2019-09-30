@@ -161,7 +161,9 @@ input {
 
 .home-flex-container h2 {
 	color: #fff;
-	font-family: 'Roboto Mono';
+	font-family: 'Roboto Mono', -apple-system, BlinkMacSystemFont,
+    "PingFang SC", "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Fira Sans",
+    "Droid Sans", "Helvetica Neue", Helvetica, arial, "sans-serif";;
 	text-transform: capitalize;
 	font-size: 18px;
 	font-weight: 400;
@@ -369,14 +371,14 @@ input {
   letter-spacing: 0.9px;
   font-weight: 400;
   text-align: center;
-	margin-bottom: 30px;
+	margin-bottom: 36px;
 }
 
 .works-links {
 	font-size: 16px;
 	display: flex;
 	align-items: center;
-	margin-bottom: 8px;
+	margin-bottom: 12px;
   text-align: center;
 }
 
@@ -558,6 +560,23 @@ input {
   margin: 25px 20px;
 }
 
+.col-left {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.about-info {
+  margin-left: 15px;
+}
+
+.about-info p {
+  font-size: 15px;
+  font-weight:400;
+  letter-spacing: 1px;
+  margin: 10px 0;
+}
+
 .personal-info {
 	margin: 30px;
 }
@@ -590,7 +609,7 @@ input {
 .personal-info-text-eng {
   width: 45%;
 	line-height: 26px;
-  margin: 15px 50px 15px 0;
+  margin: 15px 0px 15px 0;
 }
 
 .personal-info-text-cn {
@@ -598,7 +617,7 @@ input {
   font-weight: 400;
   letter-spacing: 0.8px;
   line-height: 1.6em;
-  margin: 15px 0px 15px 0;
+  margin: 15px 50px 15px 0;
 }
 
 .self-learn {
