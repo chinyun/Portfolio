@@ -202,7 +202,7 @@ input {
   max-width: 500px;
 	font-family: 'Source Sans Pro';
 	font-size: 35px;
-	color: #010120;
+  color: rgb(5, 94, 232);
 	line-height: 42px;
 	letter-spacing: 0.6px;
   margin: 5px 0;
@@ -215,7 +215,7 @@ input {
 }
 
 .works-keywords {
-  border: 1px solid rgb(5, 94, 232);
+  border: 1px solid #010120;
   border-radius: 6px;
   padding: 3px 12px;
   margin: 10px 10px 0px 0px;
@@ -224,7 +224,7 @@ input {
 .works-keywords span {
   font-family: 'Roboto Mono';
   font-size: 15px;
-  color: rgb(5, 94, 232);
+  color: #010120;
   line-height: 18px;
 }
 
@@ -300,7 +300,7 @@ input {
 }
 
 .works-feature-description-title {
-  font-size: 24px;
+  font-size: 20px;
   font-weight: 400;
 }
 
@@ -341,8 +341,8 @@ input {
 }
 
 .works-demo iframe {
-   width: 720px;
-   height: 405px;
+  width: 720px;
+  height: 405px;
 }
 
 .works-feature-more {
@@ -403,18 +403,17 @@ input {
 }
 
 .works-cta {
-	margin: 20px 0 80px 0;
+	margin: 20px 0 0 0;
 	display: flex;
 	flex-direction: column;
 	align-items: center;
 }
 
 .works-cta-words {
-	font-size: 20px;
-	font-family: 'Roboto Mono';
+	font-size: 19px;
 	color: #010120;
-	letter-spacing: 0.2px;
-	font-weight: 300;
+	letter-spacing: 1px;
+	font-weight: 400;
 	margin: 15px 0;
 }
 
@@ -466,22 +465,22 @@ input {
 .other-works-name {
   font-size: 28px;
   font-family: 'Source Sans Pro';
-  color: #010120;
+  color: rgb(5, 94, 232);
   line-height: 35px;
   letter-spacing: 0.2px;
 }
 
 .other-works-cover {
   position: relative;
-  width: 438px;
-  height: 292px;
+  width: 408px;
+  height: 272px;
   border-radius: 12px;
   box-shadow: 2px 4px 10px 0 rgba(0,0,0, 0.3);
 }
 
 .other-works-cover img {
-  width: 438px;
-  height: 292px;
+  width: 408px;
+  height: 272px;
   border-radius: 12px;
 }
 
@@ -542,14 +541,16 @@ input {
   line-height: 1.5em;
   text-align: justify;
   letter-spacing: 0.4px;
+  color: #010120;
 }
 
 .summary {
 	display: flex;
 	justify-content: center;
-  border-radius: 12px;
+  border-radius: 16px;
   box-shadow: 2px 4px 10px 0 rgba(0,0,0, 0.1);
   padding: 20px;
+  background-color: #fff;
 }
 
 .avatar {
@@ -616,7 +617,7 @@ input {
 
 .self-learn-row {
   display: flex;
-  margin-bottom: 20px;
+  margin-bottom: 15px;
 }
 
 .self-learn-column {
@@ -653,7 +654,7 @@ input {
   color: #4a4a4a;
 }
 
-.my-service {
+.my-service, .other-works {
 	background-color: #f8f8f8;
 }
 
