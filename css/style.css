@@ -203,10 +203,10 @@ input {
 .works-name {
   max-width: 500px;
 	font-family: 'Source Sans Pro';
-	font-size: 35px;
+	font-size: 36px;
   color: rgb(5, 94, 232);
 	line-height: 42px;
-	letter-spacing: 0.6px;
+	letter-spacing: 0.2px;
   margin: 5px 0;
 }
 
@@ -229,6 +229,66 @@ input {
   color: #010120;
   line-height: 18px;
 }
+
+.works-subtitle {
+  font-weight: 400;
+  font-size: 20px;
+  margin: 15px 0;
+}
+
+.works-wireframes-wrapper {
+  width: 100%;
+  margin: 20px 0;
+  display: flex;
+  flex-direction: row;
+}
+
+.works-wireframes {
+  width: 32%;
+  height: auto;
+  margin: 0 2px;
+}
+
+.works-wireframes img {
+  width: 100%;
+  height: auto;
+}
+
+/*for future use*/
+/*.works-code-wrapper {
+  width: 100%;
+  margin: 20px 0;
+  display: flex;
+  flex-direction: row;
+}
+
+.works-code {
+  display: flex;
+  flex-direction: column;
+  align-items: left;
+  width: 33%;
+  height: auto;
+  margin: 0 1px;
+}
+
+.works-code-eng {
+  font-size: 17px;
+  font-weight: 300;
+  color: #4a4a4a;
+  margin: 0 0 12px 0;
+}
+
+.works-code-cn {
+  font-size: 22px;
+  font-weight: 300;
+  color: #010120;
+  margin: 0 0 15px 0;
+}
+
+.works-code img {
+  width: 100%;
+  height: auto;
+}*/
 
 .works-description {
 	margin: 5px 0;

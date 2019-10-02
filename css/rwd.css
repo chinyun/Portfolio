@@ -225,10 +225,12 @@
   .works-name {
     font-size: 26px;
     letter-spacing: 0px;
+    width: 100%;
   }
 
   .works-keywords-group {
     flex-wrap: wrap;
+    width: 100%;
   }
 
   .works-description p {
@@ -452,7 +454,6 @@
 }
 
 @media screen and (max-width: 756px) and (min-height: 417px) {
-  
   .home-bg {
     background-image: url(../images/web-cover-rwdM.jpg);
   }
