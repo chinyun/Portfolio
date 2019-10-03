@@ -233,7 +233,7 @@ input {
 .works-subtitle {
   font-weight: 400;
   font-size: 20px;
-  margin: 15px 0;
+  margin: 25px 0 15px 0;
 }
 
 .works-wireframes-wrapper {
@@ -316,6 +316,10 @@ input {
 	text-align: justify;
   text-justify: distribute;
   margin-right: 5%;
+}
+
+.works-description-more {
+  line-height: 50px;
 }
 
 .works-information {

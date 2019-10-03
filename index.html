@@ -64,30 +64,31 @@
 						<p class="works-subtitle">Introduction</p>
 						<div class="works-description">
 							<p class="works-description-cn">
-								Tripper 是一個從零開始發想的網頁應用，目的是幫助人們管理旅遊預算，不論是在出發前規劃或旅遊期間記帳；Dahboard 顯示視覺化的數據圖表，方便掌握支出情形。
+								Tripper 是一個從零開始發想的網頁應用，目的是幫助人們管理旅遊預算，不論是在出發前規劃或旅遊期間記帳；Dashboard 顯示視覺化的數據圖表，方便掌握支出情形。
 								主要操作功能：建立多個行程分別管理、新增旅遊天數、新增支出、總預算設定、項目預算設定、修改支出內容等。
 							</p>
 							<p class="works-description-eng">
 								Tripper is a web application that starts from scratch.
 								It is designed to help people manage travel budget before and during the trip.
-								It displays visual data charts for easy access to expenditures on dashboard.
+								It displays visual data charts for easy access to expenditures on the dashboard.
 								<br>Main functions : adding journeys and managing separately, adding travel days and expenditures, budget setting, and expenditure content modification, etc.
 							</p>
 						</div>
-						<p class="works-subtitle">Coding Challenges</p>
+						<p class="works-subtitle">Coding</p>
 						<div class="works-description">
 							<p class="works-description-cn">
-								資料傳遞與 State 管理、結合 d3.js 和 react.js、UI 變化與操作行為的動態反饋
-								<p class="works-feature-description-eng"> More details:
+								隨著操作資料更新畫面經常變化，使用渲染快速的 React 建構；App 由 Container 和 3 個大元件組成，3 個元件分別有各自的子元件，個別管理 Dashboard 上不同的功能，並透過 Redux 和 React 分工處理複雜的狀態更新；Redux 負責資料傳遞、React 處理 UI 變化。
+								圖表部份結合 D3 和 React；將渲染交給 React、繪圖交由 D3。
+								另外，為提供良好的互動體驗，運用些微 CSS 動畫產生操作行為的視覺回饋。
+								<br><span class="works-description-more"> More details:
 									<a href="" class="links" target="_blank">
-										My GitHub Blog - Technology Notes
+										My GitHub Blog
 									</a>
-								</p>
+								</span>
 							</p>
 							<p class="works-description-eng">
-								Data delivering and State management.
-								Combine d3.js with react.js.
-								UI variation and dynamic feedbacks.
+								As the data update screens change frequently, the fast rendering React is used to construct. The App consists of a Container and three large Components. Each of the three Components has its own child Components, and each of them manages different functions. 
+								Redux and React work together to handle complex state updates; Redux is responsible for data passing and React handles UI changes. The charts combine D3 and React; the rendering is handed to React and the drawing is handed over to D3. In addition, use some micro CSS animations to generate visual feedback of operational behavior to provide better interactive experiences.
 							</p>
 						</div>
 						<!-- for future use -->
